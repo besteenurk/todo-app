@@ -1,6 +1,6 @@
 import { useQuery, gql } from '@apollo/client';
 
-const GET_TODO = gql`
+export const GET_TODO = gql`
     query {
         todos{
             id
